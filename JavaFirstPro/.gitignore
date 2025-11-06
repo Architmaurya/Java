@@ -1,0 +1,87 @@
+# ----------------------------------------
+# Java
+# ----------------------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore Java build output directories
+/bin/
+/build/
+/out/
+/target/
+
+# ----------------------------------------
+# IDE & Editor Files
+# ----------------------------------------
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# ----------------------------------------
+# OS-specific Files
+# ----------------------------------------
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ----------------------------------------
+# Logs and temp files
+# ----------------------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ----------------------------------------
+# Maven / Gradle
+# ----------------------------------------
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# ----------------------------------------
+# Others
+# ----------------------------------------
+# Ignore environment or secret files
+.env
+.env.local
