@@ -13,7 +13,7 @@ public class Main {
         // store 5 roll number 
         // int [] rnos= new int [5];
         // //or directly 
-        int [] ro = new int[5];
+        // int [] ro = new int[5];
         // System.out.println (ro[0]);
          
         String [] nu = new String[5];

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Input {
  public static void main (String[] args){
-    Scanner in =new Scanner(System.in);
+    Scanner im =new Scanner(System.in);
     // arrays of premivites
     // int [] arr = new int [5];
     // arr[0]=55;
@@ -25,7 +25,7 @@ public class Input {
     // array of object 
     String[] str= new String[4];
     for (int i =0 ; i<str.length; i++){
-        str[i]=in.next();
+        str[i]=im.next();
 
     }
     System.out.println(Arrays.toString(str));
