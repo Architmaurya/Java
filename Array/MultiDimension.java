@@ -15,7 +15,7 @@ public class MultiDimension {
         //     {7,8,9}  // 2nd index or {7,8,9,0}
         // };
         //   System.out.print(arr[0][1]); output:2 
-        int[][] arr = new int[3][3];
+        int[][] arr = new int[3][4];
         for (int row=0 ; row < arr.length; row++){
             //for each col in every row take the size of the col 
             for(int col=0 ;col<arr[row].length;col++){
